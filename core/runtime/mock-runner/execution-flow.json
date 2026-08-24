@@ -1,0 +1,21 @@
+{
+  "workflow": "screenshot-to-game-mvp",
+  "runtime": "mock",
+  "steps": [
+    {
+      "module": "game-understanding",
+      "input": "image",
+      "output": "blueprint"
+    },
+    {
+      "module": "asset-planner",
+      "input": "blueprint",
+      "output": "asset-tasks"
+    },
+    {
+      "module": "asset-package",
+      "input": "asset-tasks",
+      "output": "package"
+    }
+  ]
+}
