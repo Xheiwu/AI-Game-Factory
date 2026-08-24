@@ -1,0 +1,26 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "TaskPlan",
+  "type": "object",
+  "properties": {
+    "id": {"type": "string"},
+    "input": {"type": "object"},
+    "tasks": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "module": {"type": "string"},
+          "action": {"type": "string"},
+          "dependsOn": {
+            "type": "array",
+            "items": {"type": "string"}
+          },
+          "status": {"type": "string"}
+        },
+        "required": ["module", "action"]
+      }
+    }
+  },
+  "required": ["id", "tasks"]
+}
