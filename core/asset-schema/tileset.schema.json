@@ -1,0 +1,12 @@
+{
+  "$schema":"http://json-schema.org/draft-07/schema#",
+  "title":"TilesetAsset",
+  "type":"object",
+  "properties":{
+    "name":{"type":"string"},
+    "tileSize":{"type":"number"},
+    "image":{"type":"string"},
+    "collision":{"type":"array"},
+    "metadata":{"type":"object"}
+  }
+}
