@@ -1,0 +1,20 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "ModuleRegistry",
+  "type": "object",
+  "properties": {
+    "modules": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {"type": "string"},
+          "version": {"type": "string"},
+          "inputs": {"type": "array"},
+          "outputs": {"type": "array"},
+          "executor": {"type": "string"}
+        }
+      }
+    }
+  }
+}
