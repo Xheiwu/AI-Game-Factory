@@ -1,0 +1,9 @@
+{
+  "id": "screenshot-to-game-demo",
+  "steps": [
+    {"module":"game-understanding","action":"analyze"},
+    {"module":"asset-detector","action":"extract"},
+    {"module":"sprite-factory","action":"generate"},
+    {"module":"export","action":"package"}
+  ]
+}
