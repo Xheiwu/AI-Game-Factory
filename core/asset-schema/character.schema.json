@@ -1,0 +1,13 @@
+{
+  "title": "CharacterAsset",
+  "type": "object",
+  "properties": {
+    "name": {"type": "string"},
+    "style": {"type": "object"},
+    "directions": {"type": "integer"},
+    "animations": {
+      "type": "array",
+      "items": {"enum": ["idle", "walk", "run", "attack", "skill", "hurt", "death"]}
+    }
+  }
+}
