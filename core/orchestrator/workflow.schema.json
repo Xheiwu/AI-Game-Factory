@@ -1,0 +1,28 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "GameFactoryWorkflow",
+  "type": "object",
+  "properties": {
+    "id": {"type":"string"},
+    "input": {
+      "type":"object",
+      "properties": {
+        "image": {"type":"string"},
+        "video": {"type":"string"},
+        "description": {"type":"string"}
+      }
+    },
+    "steps": {
+      "type":"array",
+      "items": {
+        "type":"object",
+        "properties": {
+          "module": {"type":"string"},
+          "action": {"type":"string"},
+          "output": {"type":"string"}
+        }
+      }
+    }
+  },
+  "required":["id","steps"]
+}
