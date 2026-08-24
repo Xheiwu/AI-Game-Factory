@@ -1,9 +1,22 @@
 {
-  "id": "screenshot-to-game-demo",
+  "id": "screenshot-to-game-mvp",
+  "input": "game_screenshot",
   "steps": [
-    {"module":"game-understanding","action":"analyze"},
-    {"module":"asset-detector","action":"extract"},
-    {"module":"sprite-factory","action":"generate"},
-    {"module":"export","action":"package"}
+    {
+      "module": "game-understanding",
+      "action": "analyze"
+    },
+    {
+      "module": "blueprint-generator",
+      "action": "create_blueprint"
+    },
+    {
+      "module": "asset-planner",
+      "action": "create_tasks"
+    },
+    {
+      "module": "export-package",
+      "action": "package"
+    }
   ]
 }
