@@ -16,3 +16,10 @@ A module should expose:
 - inputs
 - outputs
 - executor
+
+MVP rules:
+
+- static registry first
+- no dynamic marketplace
+- no provider coupling
+- workflow only depends on module contracts
