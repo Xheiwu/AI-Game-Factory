@@ -1,17 +1,8 @@
 {
-  "$schema": "http://json-schema.org/draft-07/schema#",
-  "title": "SpriteAsset",
-  "type": "object",
-  "description": "Universal 2D sprite asset format for Unity, Godot, Web and TapMaker exporters",
-  "properties": {
-    "id": {"type":"string"},
-    "name": {"type":"string"},
-    "source": {"type":"string"},
-    "styleProfile": {"type":"string"},
-    "resolution": {"type":"string"},
-    "frames": {"type":"array"},
-    "atlas": {"type":"string"},
-    "engineTargets": {"type":"array"}
-  },
-  "required":["id","name"]
+  "type":"sprite",
+  "canvas":"64x64",
+  "frames":8,
+  "fps":8,
+  "transparent":true,
+  "metadata":"animation.json"
 }

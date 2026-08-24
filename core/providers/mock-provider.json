@@ -1,0 +1,9 @@
+{
+  "providers":{
+    "openai":"${OPENAI_API_KEY}",
+    "gemini":"${GEMINI_API_KEY}",
+    "siliconflow":"${SILICONFLOW_API_KEY}",
+    "tripo":"${TRIPO_API_KEY}"
+  },
+  "mode":"mock"
+}

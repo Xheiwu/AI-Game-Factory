@@ -1,14 +1,44 @@
 # AI Game Factory Vision
 
-AI Game Factory is a game asset operating system.
+## Problem
 
-Goal: convert creative intent into production-ready game assets.
+AI image generation has reduced the cost of creating art, but game developers still spend significant time converting AI outputs into usable assets.
 
-Pipeline:
-Prompt -> Style Memory -> Generator -> Processor -> Validation -> Asset Package -> Export
+## Goal
 
-Principles:
-- Engine independent
-- Asset package first
-- Replaceable AI providers
-- Agent friendly workflow
+Create an AI-native game asset production system.
+
+The pipeline:
+
+Idea
+
+↓
+
+AI Design
+
+↓
+
+Asset Generation
+
+↓
+
+Animation Processing
+
+↓
+
+Engine Export
+
+## Product Principle
+
+Do not generate pictures.
+
+Generate game-ready assets.
+
+## Target Users
+
+- Indie game developers
+- AI-assisted developers
+- H5 game creators
+- Unity developers
+- Godot developers
+- Small game teams
