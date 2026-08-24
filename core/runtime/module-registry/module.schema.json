@@ -1,0 +1,14 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "AI Game Factory Module",
+  "type": "object",
+  "required": ["id", "name", "inputs", "outputs"],
+  "properties": {
+    "id": {"type": "string"},
+    "name": {"type": "string"},
+    "category": {"type": "string"},
+    "inputs": {"type": "array"},
+    "outputs": {"type": "array"},
+    "version": {"type": "string"}
+  }
+}
