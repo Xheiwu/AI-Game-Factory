@@ -1,0 +1,12 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "ModuleExecutionResult",
+  "type": "object",
+  "properties": {
+    "moduleId": {"type": "string"},
+    "status": {"enum": ["pending", "running", "success", "failed"]},
+    "outputs": {"type": "object"},
+    "error": {"type": "string"}
+  },
+  "required": ["moduleId", "status"]
+}
