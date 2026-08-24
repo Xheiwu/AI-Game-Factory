@@ -1,66 +1,33 @@
 # AI Game Factory
 
-> Generate once, export everywhere.
+Generate once, export everywhere.
 
-AI Game Factory is an AI-powered game asset production pipeline.
+AI Game Factory is an AI-powered, engine-agnostic game asset production pipeline.
 
-The goal is to transform creative ideas into production-ready game assets:
+## Core Vision
 
-- Characters
-- Sprites
-- Animations
-- Tilesets
-- UI
-- VFX
-- Audio
-- 3D assets
+Turn creative intent into production-ready game assets:
 
-and export them to multiple engines:
+Prompt -> Style Memory -> Generator -> Processor -> Validation -> Asset Package -> Export
+
+## Modules
+
+- Dashboard
+- Sprite Workshop
+- True Pixel
+- Tileset Forge
+- AI Studio
+- Auto Sprite v2
+- Style Memory
+- Export Center
+
+## Supported Targets
 
 - Unity
 - Godot
-- Web / Canvas
+- Web
 - TapMaker
 
-## Vision
+## Development Strategy
 
-Current AI tools can generate images, but game developers still need to manually:
-
-- remove backgrounds
-- create animations
-- slice sprite sheets
-- maintain art style
-- convert formats
-- integrate assets into engines
-
-AI Game Factory focuses on the complete asset pipeline.
-
-## Core Modules
-
-### Asset Core
-Universal game asset format.
-
-### Auto Sprite v2
-Image -> animation -> sprite sheet -> engine package.
-
-### Style Memory
-Maintain consistent art direction across thousands of generated assets.
-
-### Tileset Forge
-Generate and process game environments.
-
-### Engine Export
-One asset package, multiple engine targets.
-
-## Roadmap
-
-- [x] Repository initialization
-- [ ] Asset schema
-- [ ] Pipeline architecture
-- [ ] Auto Sprite v2
-- [ ] Style Memory
-- [ ] Tileset Forge
-- [ ] Unity exporter
-- [ ] Godot exporter
-- [ ] Web exporter
-- [ ] TapMaker exporter
+Build the universal asset layer first, then connect AI providers and engine exporters.
