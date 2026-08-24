@@ -1,0 +1,18 @@
+{
+  "workflowId": "screenshot-to-game-demo",
+  "mode": "mock",
+  "steps": [
+    {
+      "module": "game-understanding",
+      "action": "analyze-image"
+    },
+    {
+      "module": "asset-factory",
+      "action": "generate-assets"
+    },
+    {
+      "module": "export",
+      "action": "create-package"
+    }
+  ]
+}
