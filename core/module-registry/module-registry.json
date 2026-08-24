@@ -1,0 +1,21 @@
+{
+  "version": "0.1",
+  "modules": [
+    {
+      "id": "game-understanding",
+      "role": "Analyze screenshots/videos and produce Game Blueprint"
+    },
+    {
+      "id": "asset-factory",
+      "role": "Generate and process game assets"
+    },
+    {
+      "id": "style-memory",
+      "role": "Maintain project visual rules"
+    },
+    {
+      "id": "export-pipeline",
+      "role": "Export to Unity/Godot/Web/TapMaker"
+    }
+  ]
+}
