@@ -1,0 +1,15 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "GameBlueprint",
+  "type": "object",
+  "properties": {
+    "genre": {"type":"string"},
+    "camera": {"type":"string"},
+    "artStyle": {"type":"string"},
+    "coreLoop": {"type":"array"},
+    "systems": {"type":"array"},
+    "assets": {"type":"array"},
+    "ui": {"type":"array"},
+    "exportTarget": {"type":"array"}
+  }
+}
