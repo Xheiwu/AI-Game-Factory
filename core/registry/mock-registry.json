@@ -1,0 +1,16 @@
+{
+  "modules": [
+    {
+      "id": "game-understanding",
+      "version": "0.1.0",
+      "inputs": ["image"],
+      "outputs": ["game-blueprint"]
+    },
+    {
+      "id": "mock-asset-factory",
+      "version": "0.1.0",
+      "inputs": ["task-plan"],
+      "outputs": ["asset-package"]
+    }
+  ]
+}
