@@ -1,15 +1,12 @@
 {
-  "$schema": "http://json-schema.org/draft-07/schema#",
-  "title": "AI Game Factory Asset Package",
-  "description": "Universal game asset package format for Unity, Godot, Web and TapMaker exports",
-  "type": "object",
-  "required": ["id", "name", "type", "files"],
-  "properties": {
-    "id": {"type": "string"},
-    "name": {"type": "string"},
-    "type": {"enum": ["character", "sprite", "animation", "tileset", "ui", "effect", "audio", "model"]},
-    "style": {"type": "object"},
-    "files": {"type": "array", "items": {"type": "string"}},
-    "exports": {"type": "array", "items": {"enum": ["unity", "godot", "web", "tapmaker"]}}
+  "$schema":"http://json-schema.org/draft-07/schema#",
+  "title":"AssetPackage",
+  "type":"object",
+  "properties":{
+    "id":{"type":"string"},
+    "assets":{"type":"array"},
+    "sourceProvider":{"type":"string"},
+    "exports":{"type":"array"},
+    "createdAt":{"type":"string"}
   }
 }

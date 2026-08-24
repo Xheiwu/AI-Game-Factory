@@ -3,10 +3,12 @@
   "title":"AnimationAsset",
   "type":"object",
   "properties":{
+    "id":{"type":"string"},
     "name":{"type":"string"},
     "fps":{"type":"number"},
-    "loop":{"type":"boolean"},
     "frames":{"type":"array"},
-    "events":{"type":"array"}
-  }
+    "loop":{"type":"boolean"},
+    "pivot":{"type":"object"}
+  },
+  "required":["id","name"]
 }

@@ -1,19 +1,21 @@
-# Asset Pipeline
+# Asset Pipeline Runtime
 
-Core workflow:
+Pipeline:
 
-Input prompt/reference
+Prompt
+-> Style Memory
+-> Generator
+-> Processor
+-> Validation
+-> Asset Package
+-> Export
 
--> AI generation
+The runtime keeps providers replaceable and engine exporters independent.
 
--> asset processing
+Initial processors:
 
--> animation/sprite compilation
-
--> engine export
-
-Supported targets:
-- Unity
-- Godot
-- Web
-- TapMaker
+- sprite slicing
+- background removal
+- frame alignment
+- atlas packing
+- metadata generation
