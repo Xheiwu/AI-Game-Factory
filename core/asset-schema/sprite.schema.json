@@ -1,0 +1,14 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "SpriteAsset",
+  "type": "object",
+  "properties": {
+    "id": {"type":"string"},
+    "name": {"type":"string"},
+    "source": {"type":"string"},
+    "resolution": {"type":"string"},
+    "frames": {"type":"array"},
+    "engineTargets": {"type":"array"}
+  },
+  "required":["id","name"]
+}
